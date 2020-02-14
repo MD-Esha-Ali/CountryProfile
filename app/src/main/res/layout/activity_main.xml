@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/BangladeshId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bangladesh"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+    <Button
+        android:id="@+id/IndiaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="India"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+    <Button
+        android:id="@+id/PakisthanId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pakisthan"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+</LinearLayout>
